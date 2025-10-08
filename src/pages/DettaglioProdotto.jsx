@@ -24,9 +24,9 @@ export default function DettaglioProdotto () { {/*Funzione per l'estrapolazione 
                                     <img src={product.image} alt={product.title}/>
                                 </div>
                                 <div className="productInfo">
-                                    <p className="productTitle">{product.title}</p>
+                                    <p className="productNewTitle">{product.title}</p>
                                     <p className="productPrice">{product.price}€</p>
-                                    <p className="productDescription">{product.description}</p>
+                                    <p className="productNeWDescription">{product.description}</p>
                                 </div>
                             </div>
                         </div>

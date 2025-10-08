@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export default function PageNotFound() {
     return (
         <>
@@ -5,6 +7,9 @@ export default function PageNotFound() {
                 <h1>Mi dispiace fratellì, stai a cercà nel posto sbagliato...</h1>
                 <img src="https://img-api.cloud.mediaset.net/api/images/kn/v2t/27986705/image_gallery/ms/824/444@2?r=4" alt="Hai preso il muro"/>
             </div>
+            <Link to={`/`}>
+                <h2 className="fratellino">Torna un po' dellà, và...</h2>
+            </Link>
         </>
     )
 }
