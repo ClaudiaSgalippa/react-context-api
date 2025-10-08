@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(218, 241, 184);
+}
+
+h1, h2, h3 {
+  color: white;
+  text-shadow: 0 0px 20px #2a5eb2, 0 0px 20px #10be84;
+  text-align: center;
+}
+
+.divPages {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+/*NAVBAR*/
+
+.displayNav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 20px;  
+}
+
+.containerNav {
+  width:fit-content;
+  border-radius: 12px;
+  padding-inline: 20px;
+  padding-block: 10px;
+  background: linear-gradient(to right, #10be84, #2a5eb2);
+  box-shadow: 0 0px 20px #2a5eb2, 0 0px 20px #10be84;
+}
+
+.ulStyle {
+  display: flex;
+  font-size: xx-large;
+}
+
+.liStyle {
+  padding: 15px;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.active {
+  color: white;
+}
+
+/*HOMEPAGE*/
+
+.divPages img {
+  box-shadow: 0 0px 20px #2a5eb2, 0 0px 20px #10be84;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+/*CHI SIAMO*/
+
+.containerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  padding-inline: 20px;
+  padding-block: 10px;
+  margin-inline: 30%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background: linear-gradient(to right, #10be84, #2a5eb2);
+  box-shadow: 0 0px 20px #2a5eb2, 0 0px 20px #10be84;
+}
+
+/*CARDS*/
+
+.containerCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.productCard {
+  display: flex;
+  width: 500px;
+  padding-inline: 20px;
+  padding-block: 20px;
+  margin-block: 10px;
+  border-radius: 12px;
+  background: linear-gradient(to right, #10be84, #2a5eb2);
+  box-shadow: 0 0px 20px #2a5eb2, 0 0px 20px #10be84;
+}
+
+.productImg img {
+  height: 200px;
+  width: 170px;
+  object-fit: contain;
+}
+
+.productInfo {
+  font-size: 20px;
+  padding-left: 30px;
+  font-weight: bold;
+  color: white;
+  align-content: center;
+}
+
+/*DETTAGLI PRODOTTO*/
+
+.boxCard {
+  display: flex;
+  justify-content: center;
+  padding-block: 30px; 
+}
+
+.patrizia {
+  padding-top: 50px; 
+}
+
+.productNewCard {
+  display: flex;
+  width: 50%;
+  padding-inline: 20px;
+  padding-block: 20px;
+  margin-block: 10px;
+  border-radius: 12px;
+  background: linear-gradient(to right, #10be84, #2a5eb2);
+  box-shadow: 0 0px 20px #2a5eb2, 0 0px 20px #10be84;
+}
+
+.productInfo .productTitle {
+  font-size: 30px;
+}
+
+.productInfo .productDescription {
+  font-size: 15px;
+}
