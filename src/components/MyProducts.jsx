@@ -1,8 +1,10 @@
 import MyProductCard from "./MyProductCard"; {/*Import della card del prodotto*/}
 import {useState, useEffect} from "react"; {/*Import degli hook useState e useEffect*/}
+import {BudgetContext} from "../contetx/BudgetContext"; {/*Import del contesto React creato tramite l'hook useBudget in "BudgetContext"*/}
 
 export default function ProductsList() { {/*Creazione della variabile di stato*/}
     const [products, setProducts] = useState ([]); {/*Array vuoto per inserire i dati dalla chiamata*/}
+    const {budgetMode} = useBudget(); {/*Utilizziamo l'hook per recuperare i dati dal PROVIDER*/}
 
     function fetchProducts () { {/*Chiamata AXIOS, se la risposta sarà positiva inserisci l'array richiamato, se negativa dai errore in console.log*/}
         axios.get("https://fakestoreapi.com/products")
@@ -13,6 +15,8 @@ export default function ProductsList() { {/*Creazione della variabile di stato*/
     useEffect (() => { {/*Utilizzo del useEffect per invocare la funzione*/}
         fetchProducts ();
     }, []); {/*Essendo una dipendenza di stato vuota, la funzione partirà soltanto all'avvio del componente (MOUNTING)*/}
+
+    
 
     return (
         <div className="">
