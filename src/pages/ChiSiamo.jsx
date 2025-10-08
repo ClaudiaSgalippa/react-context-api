@@ -1,6 +1,3 @@
-{/*Chi siamo*/}
-{/*Implementiamo una Navbar visibile in tutte le pagine per navigare tra di esse*/}
-
 export default function ChiSiamo() {
 
     return (

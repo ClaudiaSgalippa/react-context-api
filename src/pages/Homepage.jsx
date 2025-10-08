@@ -1,6 +1,3 @@
-{/*Homepage (con un messaggio di benvenuto o immagine promozionale)*/}
-{/*Implementiamo una Navbar visibile in tutte le pagine per navigare tra di esse*/}
-
 export default function HomePage() {
     return (
         <>
