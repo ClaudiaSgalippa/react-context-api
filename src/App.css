@@ -57,6 +57,27 @@ a {
   color: white;
 }
 
+.containerButton p{
+  text-align: center;
+  color: white;
+  text-shadow: 0 0px 20px white, 0 0px 20px white;
+}
+
+.button {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  align-self: center;
+  color: white;
+  font-size: medium ;
+  margin-left: 10px;
+  margin-top: 5px;
+  padding-inline: 8px;
+  border-radius: 10px;
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 /*HOMEPAGE*/
 
 .divPages img {

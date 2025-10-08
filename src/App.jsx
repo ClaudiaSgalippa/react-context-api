@@ -6,7 +6,7 @@ import Prodotti from "./pages/Prodotti"; {/*Import della pagina di riferimento*/
 import DefaultLayout from './layout/Defaultlayout'; {/*Import del layout di default creato in DefaultLayout*/}
 import DettaglioProdotto from "./pages/DettaglioProdotto"; {/*Import della pagina di riferimento*/}
 import PageNotFound from "./pages/PageNotFound"; {/*Import della pagina di riferimento*/}
-import {BudgetProvider} from 'react-router-dom'; {/*Import del Context API (componente) personalizzato*/}
+import {BudgetProvider} from './contetx/BudgetContext'; {/*Import del Context API (componente) personalizzato*/}
 
 function App() {
 
